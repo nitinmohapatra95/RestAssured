@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Suite" duration-ms="3917" started-at="2020-08-13T03:09:31Z" finished-at="2020-08-13T03:09:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3917" started-at="2020-08-13T03:09:31Z" finished-at="2020-08-13T03:09:35Z">
+      <class name="testcases.TestCase01">
+        <test-method status="PASS" signature="getResponse()[pri:0, instance:testcases.TestCase01@105fece7]" name="getResponse" is-config="true" duration-ms="2890" started-at="2020-08-13T08:39:31Z" finished-at="2020-08-13T08:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponse -->
+        <test-method status="PASS" signature="verifyFirstName()[pri:0, instance:testcases.TestCase01@105fece7]" name="verifyFirstName" duration-ms="971" started-at="2020-08-13T08:39:34Z" finished-at="2020-08-13T08:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstName -->
+        <test-method status="PASS" signature="verifyHeaderServer()[pri:0, instance:testcases.TestCase01@105fece7]" name="verifyHeaderServer" duration-ms="1" started-at="2020-08-13T08:39:35Z" finished-at="2020-08-13T08:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderServer -->
+        <test-method status="PASS" signature="verifyPageValue()[pri:0, instance:testcases.TestCase01@105fece7]" name="verifyPageValue" duration-ms="24" started-at="2020-08-13T08:39:35Z" finished-at="2020-08-13T08:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageValue -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:0, instance:testcases.TestCase01@105fece7]" name="verifyStatusCode" duration-ms="1" started-at="2020-08-13T08:39:35Z" finished-at="2020-08-13T08:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+      </class> <!-- testcases.TestCase01 -->
+    </test> <!-- Test -->
+  </suite> <!-- TestNG Suite -->
+</testng-results>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4618" started-at="2020-08-13T08:33:23 IST" finished-at="2020-08-13T08:33:27 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4618" started-at="2020-08-13T08:33:23 IST" finished-at="2020-08-13T08:33:27 IST">
+      <class name="testcases.TestCase01">
+        <test-method status="PASS" signature="getResponse()[pri:0, instance:testcases.TestCase01@131276c2]" name="getResponse" is-config="true" duration-ms="3721" started-at="2020-08-13T08:33:23 IST" finished-at="2020-08-13T08:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponse -->
+        <test-method status="PASS" signature="verifyFirstName()[pri:0, instance:testcases.TestCase01@131276c2]" name="verifyFirstName" duration-ms="788" started-at="2020-08-13T08:33:27 IST" finished-at="2020-08-13T08:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstName -->
+        <test-method status="PASS" signature="verifyHeaderServer()[pri:0, instance:testcases.TestCase01@131276c2]" name="verifyHeaderServer" duration-ms="2" started-at="2020-08-13T08:33:27 IST" finished-at="2020-08-13T08:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderServer -->
+        <test-method status="PASS" signature="verifyPageValue()[pri:0, instance:testcases.TestCase01@131276c2]" name="verifyPageValue" duration-ms="30" started-at="2020-08-13T08:33:27 IST" finished-at="2020-08-13T08:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageValue -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:0, instance:testcases.TestCase01@131276c2]" name="verifyStatusCode" duration-ms="2" started-at="2020-08-13T08:33:27 IST" finished-at="2020-08-13T08:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+      </class> <!-- testcases.TestCase01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
