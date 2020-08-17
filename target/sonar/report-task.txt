@@ -1,6 +1,6 @@
 projectKey=ResAssured:RestAssured
-serverUrl=http://localhost:9000
+serverUrl=http://10.65.227.99:9000
 serverVersion=7.0.0.36138
-dashboardUrl=http://localhost:9000/dashboard/index/ResAssured:RestAssured
-ceTaskId=AXPmKpibuov_2rESQRer
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXPmKpibuov_2rESQRer
+dashboardUrl=http://10.65.227.99:9000/dashboard/index/ResAssured:RestAssured
+ceTaskId=AXP8IWq25bptzh915I-0
+ceTaskUrl=http://10.65.227.99:9000/api/ce/task?id=AXP8IWq25bptzh915I-0
