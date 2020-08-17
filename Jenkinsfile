@@ -24,10 +24,7 @@ pipeline {
     			echo 'sonar initialization'
         		withSonarQubeEnv('sonar') {
             		sh "${scannerHome}/bin/sonar-scanner"
-				}
-        	timeout(time: 10, unit: 'MINUTES') {
-           		waitForQualityGate abortPipeline: true
-           		echo 'sonar check completed'
+            		echo 'sonar check completed'
 				}
 			}
 		}
