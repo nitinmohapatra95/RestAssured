@@ -7,13 +7,26 @@ pipeline {
 		stage('build') {
 			steps {
 				echo 'Building the project'
-				sh 'mvn clean install'
+				sh 'mvn clean compile'
 			}
 		}
 		stage('test') {
 			steps {
 				echo 'Test'
 				sh 'mvn test'
+			}
+		}
+		stage('sonar') {
+			environment {
+            	scannerHome = tool 'sonarqubescanner'
+    		}
+    		steps {
+        		withSonarQubeEnv('sonar') {
+            		sh "${scannerHome}/bin/sonar-scanner"
+				}
+        	timeout(time: 10, unit: 'MINUTES') {
+           		waitForQualityGate abortPipeline: true
+				}
 			}
 		}
 	}
