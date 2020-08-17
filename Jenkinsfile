@@ -17,6 +17,7 @@ pipeline {
 			}
 		}
 		stage('sonar') {
+			echo 'sonar initialization'
 			environment {
             	scannerHome = tool 'sonarqubescanner'
     		}
@@ -28,6 +29,7 @@ pipeline {
            		waitForQualityGate abortPipeline: true
 				}
 			}
+			echo 'sonar check completed'
 		}
 	}
 	post {
