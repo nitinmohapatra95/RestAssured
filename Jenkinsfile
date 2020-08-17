@@ -3,15 +3,8 @@ pipeline {
 	stages {
 		stage('build') {
 			steps {
-				sh 'mvn clean test'
+				sh 'mvn --version'
 			}
-			post  {
-				success {
-						junit 'target/surefire-reports/**/*.xml' 
-						echo 'build success'
-				}
-			}
-			
 		}
 	}
 }
